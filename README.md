@@ -1,19 +1,20 @@
 # Hi there, I'm Junaid Ahmed Mohammed 👋
 
-### Senior Data Engineer | AI Infrastructure Architect
+### Senior Data Engineer | Data Science Practitioner
 **Indianapolis, IN**
 
 **Welcome to my profile!**
 
-I am a Senior Data Engineer with **5+ years of experience** bridging the gap between distributed systems (**Snowflake, Spark**) and modern Generative AI (**Agentic AI, RAG**).
+I am a Senior Data Engineer with **5+ years of experience** building high-scale data infrastructure (**Snowflake, Spark**) and a recent focus on **Generative AI** (Local LLM Fine-tuning).
 
-Here, you'll find my work on optimizing **Local LLM Inference** and building **Enterprise Data Lakehouses**. I love solving complex infrastructure challenges to make AI secure, scalable, and efficient.
+Here, you'll find my work on optimizing **ETL Pipelines**, architecting **Enterprise Data Lakehouses**, and engineering **Local Code Generation Models**. I love solving complex infrastructure challenges to make data secure, scalable, and actionable.
 
 ---
 
-### 🚀 What I'm Working On
-* **Data Engineering:** Architected Snowflake Data Lakehouse migrations for **12TB+** of legacy data, achieving a **25%** reduction in infrastructure costs.
-* **AI Research:** Optimized **LLaMA 3.2 (3B)** and **Qwen 2.5** fine-tuning on 200k+ code samples utilizing **QLoRA** and **Unsloth** for resource-constrained environments.
+### 🚀 Key Highlights
+* **Data Engineering:** Co-architected a Snowflake Data Lakehouse migration for **12TB+** of legacy data, achieving a **25%** reduction in infrastructure costs.
+* **AI Research:** Developed local **Python Code Generation** models by fine-tuning **LLaMA 3.2** and **Qwen 2.5**. Implemented **continual pretraining** on the **CodeParrot** dataset using **QLoRA** and **Unsloth** for efficient training on consumer hardware.
+* **Pipeline Optimization:** Optimized long-running PySpark jobs using **Z-Ordering** and partitioning, reducing execution time by **40%**.
 
 ---
 
@@ -21,21 +22,22 @@ Here, you'll find my work on optimizing **Local LLM Inference** and building **E
 
 | **Domain** | **Stack** |
 | :--- | :--- |
-| **Generative AI** | LLaMA 3.2, Qwen 2.5, LangChain, Hugging Face, Unsloth, QLoRA |
-| **Cloud & Lakehouse** | Snowflake, Azure (ADF, Synapse), Databricks |
+| **Generative AI** | LLaMA 3.2, Qwen 2.5, Hugging Face, Unsloth, QLoRA, PEFT |
+| **Cloud & Lakehouse** | Snowflake, Azure (ADF, Synapse), Databricks, Delta Lake |
 | **Streaming & Compute** | Apache Spark, PySpark, Kafka, Airflow |
-| **Core Engineering** | Python, SQL, Scala, Docker, Kubernetes |
+| **Core Engineering** | Python, SQL, Scala, Git, Jira, Confluence |
+| **Visualization** | Plotly, Dash, Power BI |
 
 ---
 
-### 🔭 Current Experiments
-* **Agentic Workflows:** Implementing the **Model Context Protocol (MCP)** to enable secure LLM access to enterprise data lakes.
-* **Quantization:** Investigating **4-bit quantization** methods to improve inference throughput on consumer hardware.
-* **Governance:** Applying "Data-as-a-Product" frameworks to ensure GxP compliance and data integrity in AI pipelines.
+### 🔭 Projects & Experiments
+* **Python Code Gen (Local LLMs):** Conducted rigorous **statistical evaluation** of model architectures (GPT-2 vs. LLaMA), proving that architecture design outweighs parameter count for code generation tasks.
+* **Real-Time Sales Prediction:** Designed streaming pipelines using **Apache Kafka** and **Airflow** to ingest live transactional data for predictive modeling.
+* **Internal Tools (Full Stack):** Built a custom **HR Recruitment Application** using **Python (Falcon)** and **MongoDB** that reduced manual data entry redundancy by **40%**.
 
 ---
 
 ### 📫 Let's Connect!
-I'm always open to discussing **Data Quality**, **RAG architectures**, or **Snowflake optimization**. Feel free to reach out!
+I'm always open to discussing **Data Lake Architecture**, **LLM Fine-tuning**, or **Spark Optimization**. Feel free to reach out!
 
 [**LinkedIn**](https://www.linkedin.com/in/junaid-ahmed-mohammed-02321a95/) • [**Email**](mailto:mjunaidtechs@gmail.com)
