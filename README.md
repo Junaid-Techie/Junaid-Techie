@@ -61,7 +61,7 @@ Now I spend my time building a semantic job matcher and a local code generator. 
   <img src="https://badges.parchment.com/public/assertions/bWV_8KpZQaKuGawrEl4KHQ/image" alt="GenAI 101 Badge" width="120" />
 </a>
 <br/>
-<b>SnowPro Core</b> | <b>Azure Data Engineer (DP-203)</b> | <b>GenAI 101</b>
+<b>GenAI 101</b>
 
 ---
 
