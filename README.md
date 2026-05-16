@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Junaid Ahmed Mohammed 👋</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Senior+Data+Engineer;Cloud-Native+Data+Systems;Generative+AI+Practitioner" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+12TB%2B+retail+data+systems;Fine-tuning+LLMs+with+QLoRA;Shipping+Spark+and+Kafka+pipelines" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -10,17 +10,19 @@
 
 ### 👨‍💻 About Me
 
-I am a **Senior Data Engineer** with **7+ years of experience** specializing in designing and scaling cloud-native data systems on Azure and Snowflake. I thrive on building high-volume analytics platforms and production-grade pipelines that deliver trusted, governed data products.
+I spent 5 years at Nisum Technologies building data platforms for Williams-Sonoma and Macy's. I handled the movement of 12+ TB of retail data through Delta Lake across 60+ countries and 625+ stores. 
 
-My expertise spans across **ETL/ELT orchestration** (Azure Data Factory), **distributed processing** (PySpark, Databricks), and **enterprise data modeling** (dimensional, lakehouse). Recently, my focus has grown to encompass **AI/ML pipeline enablement** and **Generative AI applications**, combining big data with intelligent automation.
+I recently finished 2 years of research at the IU Indianapolis COMET Lab and completed an M.S. in Applied Data Science with a 3.97 GPA. My research involved fine-tuning LLaMA 3.2 and Qwen 2.5 models for Python code generation on the CodeParrot dataset.
+
+Now I spend my time building a semantic job matcher and a local code generator. I prefer systems that run efficiently and don't break in the middle of the night.
 
 ---
 
-### 🚀 Key Highlights
+### 🚀 What I've Actually Built
 
-* **Data Engineering:** Co-architected a Snowflake Data Lakehouse migration for **12TB+** of legacy data, achieving a **25%** reduction in infrastructure costs.
-* **AI Research:** Developed local **Python Code Generation** models by fine-tuning **LLaMA 3.2** and **Qwen 2.5**. Implemented **continual pretraining** on the **CodeParrot** dataset using **QLoRA** and **Unsloth** for efficient training on consumer hardware.
-* **Pipeline Optimization:** Optimized long-running PySpark jobs using **Z-Ordering** and partitioning, reducing execution time by **40%**.
+* **40% runtime reduction:** I refactored PySpark jobs using Z-Ordering and broadcast joins to stop wasting compute time.
+* **12TB+ migrated:** I moved enterprise retail data into a Snowflake lakehouse to support analytics for 625+ global stores.
+* **30% fewer fulfillment errors:** I built the routing dimensions for the ECDD platform which fixed a large chunk of delivery inaccuracies.
 
 ---
 
@@ -36,22 +38,20 @@ My expertise spans across **ETL/ELT orchestration** (Azure Data Factory), **dist
   <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" />
 </p>
 
-| **Domain** | **Stack** |
+| Domain | Stack |
 | :--- | :--- |
-| **Generative AI** | LLaMA 3.2, Qwen 2.5, Hugging Face, Unsloth, QLoRA, PEFT |
-| **Cloud & Lakehouse** | Snowflake, Azure (ADF, Synapse), Databricks, Delta Lake |
-| **Streaming & Compute** | Apache Spark, PySpark, Kafka, Airflow |
-| **Core Engineering** | Python, SQL, Scala, Git, GitHub |
-| **Visualization** | Plotly, Dash, Power BI |
+| **Generative AI** | LLaMA 3.2, Qwen 2.5, QLoRA, PEFT, OpenAI |
+| **Data Engineering** | Snowflake, Databricks, Azure (ADF), Delta Lake |
+| **Processing** | Apache Spark, PySpark, Kafka, Airflow |
+| **Languages** | Python, SQL, Scala |
 
 ---
 
-### 🔭 Featured Projects
+### 🔭 Projects
 
-* **[Job AI Matcher](https://github.com/Junaid-Techie/job-ai-app):** AI-Powered Semantic Job Intelligence Platform. Uses vector embeddings (pgvector) and OpenAI for semantic matching to transform job search from manual filtering into intelligent matching.
-* **[Sales Prediction Pipeline](https://github.com/Junaid-Techie/sales-prediction-main):** Complete data pipeline and ML model training setup involving streaming data ingestion, validation, storage, and automated model training orchestrated via Apache Airflow.
-* **[Python Code Generator](https://github.com/Junaid-Techie/PythonCodeGen-Repo):** Developed Python code generation models using lightweight LLMs (LLaMA 3.2, Qwen 2.5) capable of running locally. Implemented continual pretraining, 4-bit quantization, and PEFT techniques.
-* **[HR Recruitment Application](https://github.com/Junaid-Techie/HR-Recruitment-Application):** A full-stack HR Recruitment Management System built with Python and the Falcon framework. Manages the complete hiring lifecycle using a MongoDB database and AJAX frontend.
+* **[Job AI Matcher](https://github.com/Junaid-Techie/job-ai-app):** A FastAPI backend using pgvector and OpenAI embeddings. It ranks job matches based on meaning instead of just matching keywords.
+* **[Sales Prediction Pipeline](https://github.com/Junaid-Techie/sales-prediction-main):** This pulls data through Kafka and PySpark to forecast revenue. It validates 50K+ rows per batch to ensure only clean data hits PostgreSQL.
+* **[Python Code Generator](https://github.com/Junaid-Techie/PythonCodeGen-Repo):** I fine-tuned LLaMA 3.2 and Qwen 2.5 on the CodeParrot dataset using QLoRA. It is designed to run on consumer hardware.
 
 ---
 
@@ -61,13 +61,13 @@ My expertise spans across **ETL/ELT orchestration** (Azure Data Factory), **dist
   <img src="https://badges.parchment.com/public/assertions/bWV_8KpZQaKuGawrEl4KHQ/image" alt="GenAI 101 Badge" width="120" />
 </a>
 <br/>
-<b>GenAI 101</b> - <i>Parchment Digital Badges Pathways</i>
+<b>SnowPro Core</b> | <b>Azure Data Engineer (DP-203)</b> | <b>GenAI 101</b>
 
 ---
 
-### 📫 Let's Connect!
+### 📫 Let's Connect
 
-I'm always open to discussing **Data Lake Architecture**, **LLM Fine-tuning**, or **Spark Optimization**. Feel free to reach out!
+Send me an email or find me on LinkedIn if you want to talk about data systems.
 
 <p align="left">
   <a href="https://www.linkedin.com/in/mjunaid56" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
